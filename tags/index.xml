@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Paper</title>
+    <link>https://nanxiaobei.github.io/hugo-paper/tags/</link>
+    <description>Recent content in Tags on Paper</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://nanxiaobei.github.io/hugo-paper/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Css</title>
+      <link>https://nanxiaobei.github.io/hugo-paper/tags/css/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanxiaobei.github.io/hugo-paper/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emoji</title>
+      <link>https://nanxiaobei.github.io/hugo-paper/tags/emoji/</link>
+      <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanxiaobei.github.io/hugo-paper/tags/emoji/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>https://nanxiaobei.github.io/hugo-paper/tags/html/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanxiaobei.github.io/hugo-paper/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://nanxiaobei.github.io/hugo-paper/tags/markdown/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanxiaobei.github.io/hugo-paper/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text</title>
+      <link>https://nanxiaobei.github.io/hugo-paper/tags/text/</link>
+      <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanxiaobei.github.io/hugo-paper/tags/text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Themes</title>
+      <link>https://nanxiaobei.github.io/hugo-paper/tags/themes/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanxiaobei.github.io/hugo-paper/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
