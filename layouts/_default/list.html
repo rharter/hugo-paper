@@ -1,16 +1,14 @@
 {{ partial "header.html" . }}
 
+
 {{ if not .IsHome }}
 <header class="page-header">
-  <h1>
-  {{ if eq .Data.Singular "tag" }}{{ .Data.Term }}{{ else }}Posts{{ end }}
-  </h1>
+  <h1>{{ if eq .Data.Singular "tag" }}{{ .Data.Term }}{{ else }}Posts{{ end }}</h1>
 </header>
 {{ end }}
 
-{{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") }}
+{{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
 
-{{ if gt $paginator.TotalPages 0 }}
 {{ range $index, $page := $paginator.Pages }}
 <article class="{{ if and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) }}first-entry{{ else }}post-entry{{ end }}">
   <header class="entry-header">
@@ -20,11 +18,10 @@
    <p>{{ .Summary | plainify | htmlUnescape }}{{ cond (lt (countwords .Summary) (default 70 .Site.Params.summaryLength)) "" "..." }}</p>
   </section>
   <footer class="entry-footer">
-    <time>{{ .Date.Format (.Site.Params.dateFormat | default "2006.1.2") }}</time>
+    <time>{{ .Date.Format "January 2, 2006" }}</time>
   </footer>
   <a class="entry-link" href="{{ .Permalink }}"></a>
 </article>
-{{ end }}
 {{ end }}
 
 {{ if gt $paginator.TotalPages 1 }}
